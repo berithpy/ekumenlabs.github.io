@@ -6,9 +6,9 @@ First of all, **do not** work on the `master` branch of this repository. Make su
 
 ### Install **Ruby version 2.2.2**
 
-The recommended way is to do so is using [RVM](https://rvm.io/). You can follow their [install guide](https://rvm.io/rvm/install).
+The recommended way to do so is using [RVM](https://rvm.io/). You can follow their [install guide](https://rvm.io/rvm/install).
 
-With RVM installed, you can install the required Ruby version.
+With RVM installed, you can now install the required Ruby version.
 
 ```
 rvm install ruby-2.2.2
