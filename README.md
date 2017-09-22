@@ -61,7 +61,6 @@ To build a static version of the Website, run:
 ```
 middleman build
 ```
-```
 
 The output is inside the `build` folder.
 
