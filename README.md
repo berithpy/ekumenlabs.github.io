@@ -4,15 +4,15 @@
 
 First of all, **do not** work on the `master` branch of this repository. Make sure to checkout the `middleman` branch and use it as base for your work.
 
-### Install **Ruby version 2.2.2**
+### Install **Ruby version 2.2.0**
 
 The recommended way to do so is using [RVM](https://rvm.io/). You can follow their [install guide](https://rvm.io/rvm/install).
 
 With RVM installed, you can now install the required Ruby version.
 
 ```
-rvm install ruby-2.2.2
-rvm --ruby-version use 2.2.2
+rvm install ruby-2.2.0
+rvm --ruby-version use 2.2.0
 ```
 
 This creates a `.ruby-version` file that sets the Ruby version to use each time you enter this folder.
