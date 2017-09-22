@@ -53,10 +53,6 @@ The following command makes the website run in the localhost. Check the `config.
 ```
 middleman
 ```
-or
-```
-bundle exec middleman
-```
 
 ## Build the Website
 
@@ -65,9 +61,6 @@ To build a static version of the Website, run:
 ```
 middleman build
 ```
-or
-```
-bundle exec middleman build
 ```
 
 The output is inside the `build` folder.
