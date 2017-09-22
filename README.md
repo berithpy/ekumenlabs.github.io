@@ -28,6 +28,15 @@ rvm list rubies
 
 As a double check, the ruby version is also declared in the `Gemfile`.
 
+### Install nodejs
+
+This is required by the gem Nokogiri. You can install NodeJS by doing the following:
+
+```
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
 ### Install the Bundler
 
 With Ruby installed and set in the correct version, enter the following:
@@ -36,8 +45,6 @@ With Ruby installed and set in the correct version, enter the following:
 gem install bundler
 bundle install
 ```
-
-Some gems might require additional dependencies, such as *NodeJS*. Make sure to install those accordingly.
 
 ## Run the Website
 
