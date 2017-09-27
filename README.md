@@ -1,6 +1,6 @@
 # Ekumenlabs.com
 
-## Enviroment Setup
+## Environment Setup
 
 First of all, **do not** work on the `master` branch of this repository. Make sure to checkout the `middleman` branch and use it as base for your work.
 
@@ -49,13 +49,13 @@ bundle install
 
 ## Workflow
 
-Make sure you checkout the `middleman` branch. This needs to be the starting point of your work branches.
+Make sure to checkout the `middleman` branch. This needs to be the starting point of your work branches.
 
-> The Ekumen Website is an [Organization GitHub Page](https://help.github.com/articles/user-organization-and-project-pages/), therefore, its static source files can be found in the `master` branch. Any push made into `master` will reflect into the Website, so be careful!
+> The Ekumen Website is an [Organization GitHub Page](https://help.github.com/articles/user-organization-and-project-pages/), therefore, its static source files can be found in the `master` branch. Any push made into `master` will reflect into the website, so be careful!
 
 Once in your working branch, you can make changes to the website. Run the website locally to check that everything is working as expected.
 
-Make a Pull Request and point it to the `middleman` branch. After this has been properly reviewed and merged, the Website needs to be manually built and deployed.
+Make a Pull Request and change it's base to the `middleman` branch. After this has been properly reviewed and merged, the website needs to be manually built and deployed.
 
 ## Run the Website
 
@@ -67,7 +67,7 @@ middleman
 
 ## Build the Website
 
-To build a static version of the Website, run:
+To build a static version of the website, run:
 
 ```
 middleman build
@@ -82,7 +82,7 @@ From the [Middleman Website](https://middlemanapp.com/basics/build-and-deploy)
 
 ## Deploy the Website
 
-**Be careful:** Before deploying, you need to manually build the static files of the website, using the previously mentioned command. Make sure you have the updated `middleman` branch with the lastest changes that you want to deploy and nothing else.
+**Be careful:** Before deploying, you need to manually build the static files of the website, using the previously mentioned command. Make sure you have the updated `middleman` branch with the latest changes that you want to deploy and nothing else.
 
 You can deploy the website by doing:
 
@@ -98,4 +98,4 @@ The commit history you will see in the `master` branch depends on the `build` fo
 
 Something went wrong? Don't worry. You can always revert the `middleman` branch into a previous and stable state. Once this is done, you can build the website and deploy it again following the previously mentioned steps. This should be the correct workflow when it comes fixing problems.
 
-In dire situations, you can commit and push directly into `master` and the website will reflect this change. Still, this is strongly discouraged and should be avoided at all cost.
+In dire situations, you can commit and push directly into `master` and the website will reflect this change. Still, this is strongly discouraged and should be avoided.
