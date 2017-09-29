@@ -101,7 +101,7 @@ middleman build
 middleman deploy
 ```
 
-If you need to fix something directly on the `master` branch, you can do it. The website shows what's in the `master` branch after all.
+If you need to fix something directly on the `master` branch, you can do it. The website reflects what is in the `master` branch.
 
 ```
 git checkout master
@@ -109,4 +109,4 @@ git commit -m "My changes"
 git push -f origin master
 ```
 
-Keep in mind that working directly on the `master` is discouraged and should be avoided. All the work done should have the `middleman` branch as a starting point.
+Keep in mind that working directly on the `master` branch is discouraged and should be avoided. All the work done should have the `middleman` branch as a starting point.
