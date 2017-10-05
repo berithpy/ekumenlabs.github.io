@@ -38,7 +38,7 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-### Install the Bundler
+### Install Bundler
 
 With Ruby installed and set in the correct version, enter the following:
 
@@ -109,4 +109,4 @@ git commit -m "My changes"
 git push -f origin master
 ```
 
-Keep in mind that working directly on the `master` branch is discouraged and should be avoided. All the work done should have the `middleman` branch as a starting point.
+Keep in mind that working directly on the `master` branch is discouraged and should be avoided. All the work done should have the `middleman` branch as a starting point. Any change made directly into `master` will be lost in future deploys made from the `middleman` branch.
