@@ -10,8 +10,17 @@ layout: page
 <%= image_tag("team/team.jpg", :alt => "Ekumen team",
   :class => "img-responsive") %>
 
-<% blog.articles.reverse_each do |teammate| %>
+<% blog.articles.select{ |teammate| teammate.tags[0] == 'team'}.reverse_each do |teammate| %>
   <div class="person-container clearfix">
     <%= teammate.body %>
   </div>
 <% end %>
+
+<h1>Advisors</h1>
+
+<% blog.articles.select{ |teammate| teammate.tags[0] == 'advisor'}.reverse_each do |teammate| %>
+  <div class="person-container clearfix">
+    <%= teammate.body %>
+  </div>
+<% end %>
+
