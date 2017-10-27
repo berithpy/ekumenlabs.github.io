@@ -35,6 +35,15 @@ li a {
   margin-bottom: 1em;
 }
 
+#job-team {
+  background: url('/images/jobs/team.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 15em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
 @mixin job-posting-image-base {
   background-size: cover;
   background-position: center;
