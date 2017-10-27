@@ -31,13 +31,7 @@
     <priority>1</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/jobs/webdev/</loc>
-    <lastmod>2017-10-27T00:00:00-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.ekumenlabs.com/jobs/roboticist/</loc>
+    <loc>http://www.ekumenlabs.com/jobs/peoplemanager/</loc>
     <lastmod>2017-10-27T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -49,13 +43,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://www.ekumenlabs.com/jobs/web/</loc>
-    <lastmod>2017-10-27T00:00:00-03:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://www.ekumenlabs.com/jobs/android/</loc>
+    <loc>http://www.ekumenlabs.com/jobs/junior/</loc>
     <lastmod>2017-10-27T00:00:00-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
