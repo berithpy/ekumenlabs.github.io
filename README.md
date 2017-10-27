@@ -1,5 +1,7 @@
 # Ekumenlabs.com
 
+---
+
 ## Environment Setup
 
 First of all, **do not** work on the `master` branch of this repository. Make sure to checkout the `middleman` branch and use it as base for your work.
@@ -46,6 +48,8 @@ With Ruby installed and set in the correct version, enter the following:
 gem install bundler
 bundle install
 ```
+
+---
 
 ## Workflow
 
@@ -110,3 +114,9 @@ git push -f origin master
 ```
 
 Keep in mind that working directly on the `master` branch is discouraged and should be avoided. All the work done should have the `middleman` branch as a starting point. Any change made directly into `master` will be lost in future deploys made from the `middleman` branch.
+
+---
+
+## Dev Notes
+
+You can find the Dev Notes [here](DEV-NOTES.md).
