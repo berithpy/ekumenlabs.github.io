@@ -53,3 +53,13 @@ You can ignore to build something by adding to the `config.rb` file the followin
 ignore "path/to/file"
 ```
 Currently, we are ignoring the Blog section and its entries.
+
+---
+
+## Frontmatter
+
+We use the [Middleman's Frontmatter](https://middlemanapp.com/basics/frontmatter/) to add variables to an article, such as title, name, date, etc.
+
+We can also add custom variables, such as _tags_. For example, we use this in the _Team_ section to tag each member. This allows us to list them separately by tag.
+
+Note that articles have a date, and newer ones are being shown first. If you want to reorder a list of articles, you need to manually modify this date field.
