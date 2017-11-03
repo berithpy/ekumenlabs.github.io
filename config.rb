@@ -14,6 +14,7 @@ require "builder"
 page "/sitemap.xml", :layout => false
 
 # Don't build the Blog section and its entries.
+# We are keeping the files for future reference.
 ignore "blog.html.erb"
 ignore "blog/*"
 
