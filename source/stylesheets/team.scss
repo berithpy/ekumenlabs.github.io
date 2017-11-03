@@ -12,6 +12,12 @@
     .person-bio {
       font-size: 14px;
       word-break: break-word;
+      display: block;
+      /* For screen larger than 768px */
+      @media (min-width: $screen-sm-min) {
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     .person-picture {
