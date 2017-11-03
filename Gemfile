@@ -17,6 +17,7 @@ gem "middleman-favicon-maker"
 gem "middleman-jquery"
 gem "builder"
 gem "middleman-sitemap"
+gem "middleman-minify-html"
 
 # Templating
 gem "redcarpet"
