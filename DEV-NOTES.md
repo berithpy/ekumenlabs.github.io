@@ -37,3 +37,19 @@ You should always check the HTML container and upload images to match their size
 
 - Team pictures are 200x299 pixels.
 - Client images should have a height of 40px.
+
+---
+
+## Middleman Information
+
+When running `middleman`, you can navigate to `localhost:port/__middleman/` and see the [Sitemap](https://middlemanapp.com/advanced/sitemap/), [Configuration](https://middlemanapp.com/advanced/configuration/) and [Guides](https://middlemanapp.com/).
+
+---
+
+## Ignore Files
+
+You can ignore to build something by adding to the `config.rb` file the following:
+```
+ignore "path/to/file"
+```
+Currently, we are ignoring the Blog section and its entries.
