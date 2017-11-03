@@ -13,11 +13,6 @@ set :relative_links,        true
 require "builder"
 page "/sitemap.xml", :layout => false
 
-# Don't build the Blog section and its entries.
-# We are keeping the files for future reference.
-ignore "blog.html.erb"
-ignore "blog/*"
-
 # Allow HTML in the Markdown
 # see https://github.com/middleman/middleman/issues/1221#issuecomment-38104894
 # Note that Markdown formatting syntax is not processed within block-level HTML
@@ -107,12 +102,21 @@ configure :build do
   set :site_url, "#{site_url_production}"
   set :sass, line_comments: false, style: :expanded
 
+  activate :minify_css
+  activate :minify_javascript
+  activate :minify_html
+  activate :gzip
+
   # Enable cache buster, disabled because doesn't play nice with relative_assets
   # activate :asset_hash, :exts => ['.css', '.png', '.jpg', '.gif']
 
   # Ignore files/dir during build process
   ignore "favicon_template.png"
   ignore "README.md"
+  # Don't build the Blog section and its entries.
+  # We are keeping the files for future reference.
+  ignore "blog.html.erb"
+  ignore "blog/*"
 
   # Favicon generator
   # Edit favicon_template.png for custom icon
